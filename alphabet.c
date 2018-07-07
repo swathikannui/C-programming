@@ -5,11 +5,11 @@ int main()
 	scanf("%s",&s);
 	if((s>='a' && s<='z')||(s>='A' && s<='Z'))
 	{
-		printf("It is an alphabet");
+		print("Alphabet");
 	}
 	else
 	{
-		printf("It is an not an alphabet");
+		printf("Not an Alphabet");
 	}
 	return 0;
 }
